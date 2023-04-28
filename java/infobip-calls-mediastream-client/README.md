@@ -36,7 +36,7 @@ Start your application:
 
 As already mentioned, our example applies a simple Butterworth filter onto the incoming media. If you want to implement
 another filter, or any arbitrary/custom media processing all you have to do is modify the
-[AudioFilter](./src/main/java/com/infobip/calls/mediastream/infobipcallsmediastreamclient/utils/AudioFilter.java#9)
-class. More specifically, the [processFrame](./src/main/java/com/infobip/calls/mediastream/infobipcallsmediastreamclient/utils/AudioFilter.java#28)
+[AudioFilter](./src/main/java/com/infobip/calls/mediastream/infobipcallsmediastreamclient/utils/AudioFilter.java#L9)
+class. More specifically, the [processFrame](./src/main/java/com/infobip/calls/mediastream/infobipcallsmediastreamclient/utils/AudioFilter.java#L28)
 method of the given class unpacks the received media, applies an arbitrary filter and then packs the filtered media
 back. It's sufficient to just change the method which modifies the media.
