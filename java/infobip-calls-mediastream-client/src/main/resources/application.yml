@@ -1,0 +1,5 @@
+media-stream-client:
+  address: ${MEDIA_STREAM_CLIENT_HOSTNAME:0.0.0.0}
+  port: ${MEDIA_STREAM_CLIENT_PORT:8081}
+  max-threads: 4
+  
